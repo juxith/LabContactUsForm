@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+
+    <body>
+        <form action="#" method="post"/>
+        <table width="30%">
+            <tr>
+                <td align="right"><p><label id="firstNameLabel" for="firstName">First Name: </label></p></td>
+                <td><input id="firstName" type="text" size="30" /><td>
+            </tr>
+            <tr>
+                <td align="right"><p><label id="lastNameLabel" for="lastName">Last Name: </label></p></td>
+                <td><input id="lastName" type="text" size="30" /></td>
+            </tr>
+            <tr>
+                <td align="right"><p><label id="emailLabel" for="email">Email: </label></p></td>
+                <td><input id="email" type="text" size="30" /></td>
+            </tr>
+            <tr>
+                <td align="right"><label id="licenseTypeLabel" for="licenseType">Type of License: </label></td>
+                <td><input id="licenseType" type="radio" name="licenseType" value="business" checked />Business
+                <input id="licensetype" type="radio" name="licenseType" value="personal" />Personal</td>
+            </tr>
+            <tr>
+                <td align="right"><p><label id="reasonLabel" for="reason">Reason: </label></p></td>
+                <td><select name="reason" style="width:203px;">
+                <option value="Select a Reason">Select a Reason</option>
+                <option value="Software Support">Software Support</option>
+                <option value="Hardware Support">Hardware Support</option>
+                <option value="Information Request">Information Request</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="right" style="vertical-align:top;"><label id="add.InfoLabel" for="add.Info">Additional Information: </label></td>
+                <td><textarea name="additional information" style="width:197px; height:100px;"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input id="terms/conditions" name="terms/conditions" type="checkbox" value="terms/condition">I have read the terms of service.</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center"><p><input id="sendRequest" type="submit" value="Send Request"></p></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
+
